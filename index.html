@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            "ccp-blue": "#14294B",
+                            "ccp-red": "#ED1C25"
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <!-- HERO -->
+            <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-36 sm:py-32 lg:px-8">
+                <div class="absolute size-full top-0 left-0" aria-hidden="true">
+                    <img src="assets/home-hero-bkg.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
+                    <div class="absolute  top-0 left-0 w-full h-full bg-blue-950 opacity-80"></div>
+                </div>
+                <div class="relative z-10">
+                    <div class="flex justify-center mb-16">
+                        <img src="assets/ccp-light-logo.PNG" class="w-96"/>
+                    </div>
+                    <div class="mx-auto max-w-2xl text-center">
+                        <h1 class="text-6xl font-bold tracking-tight text-white sm:text-6xl">Be Found by Indianapolis Customers</h1>
+                        <p class="mt-6 text-2xl leading-8 text-gray-200">Plan to list your business on CircleCity.Pro, a business directory for Indianapolis businesses by an Indianapolis business.</p>
+                    </div>
+                    <div class="flex justify-center mt-16">
+                        <a href='#join' class='inline-flex items-center px-4 py-2 bg-ccp-red border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-white hover:text-ccp-blue transition ease-in-out duration-150'>
+                            Join the Newsletter
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- END HERO -->
+            <!-- BODY WRAPPER -->
+            <div class="">
+                <section class="my-32 max-w-3xl mx-auto">
+                    <h2 class="text-4xl font-bold">Be Found Online.</h2>
+                    <p class="py-8 text-xl">Your business deserves to show up online. More than ever, people are searching online for what you offer, but if you don't show up, they may never find you. Our goal is to change that! We want to help as many Indianapolis businesses get discovered online. The most affordable solution is to join CirleCity.Pro.</p>
+                    <p class="pb-8 text-xl">By building a profile on CircleCity.Pro you are able to leverage our SEO knowledge and be found online easily. When we launch your plan determines your level of access on the platform. Every piece of text, every image, every video helps your number of at-bats to be found by searchers. </p>
+                    <p class="pb-8 text-xl">With our white glove onboarding process, you are supported in building your business's profile. We help you choose the right plan for your business, how you can structure your profile to be the most effective, and let you know how you can help grow the platform that ultimately promotes your business.</p>
+                    <div class="flex justify-center">
+                        <a href='#join' class='inline-flex items-center px-4 py-2 bg-ccp-red border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-white hover:text-ccp-blue transition ease-in-out duration-150'>
+                            Join the Newsletter
+                        </a>
+                    </div>
+                </section>
+
+                <section class="py-32  text-center bg-ccp-blue">
+                    <div class="max-w-3xl mx-auto text-white">
+                        <h2 class="text-4xl font-bold">A Business Directory for Indy Businesses by an <a href="https://wellspring.marketing" target="_blank">Indy Business</a></h2>
+                        <p class="py-8 text-xl">CircleCity.Pro is being developed by Wellspring, a web and SEO agency located in Broad Ripple. By using our SEO knowledge in building this directory, we can help many more businesses be found online at an affordable price. Join the newsletter to stay up to date about the launch and what we can offer!</p>
+                        <a href='#join' class='inline-flex items-center px-4 py-2 bg-ccp-red border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-white hover:text-ccp-blue transition ease-in-out duration-150'>
+                            Join the Newsletter
+                        </a>
+                    </div>
+                </section>
+
+                <section class="bg-white py-8 sm:py-12 ">
+                    <div class="px-6 lg:px-8">
+                        <div class="mx-auto max-w-3xl text-center">
+                            <h2 class="text-base font-semibold leading-7 text-ccp-red">Launch Investment</h2>
+                            <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Plans for businesses of&nbsp;all&nbsp;sizes</p>
+                            <p class="mt-2 text-xl tracking-tight text-gray-900 py-8">Joining during the launch period awards you with a lifetime lock on your monthly investment.</p>
+                        </div>
+
+                        <div class="max-w-5xl mx-auto">
+                            <!-- xs to lg -->
+                            <div class="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 lg:hidden">
+                                <section class="p-8">
+                                    <h3 id="tier-basic" class="text-sm font-semibold leading-6 text-gray-900">Basic</h3>
+                                    <p class="mt-2 flex items-baseline gap-x-1 text-gray-900">
+                                        <span class="text-4xl font-bold">Free</span>
+                                    </p>
+                                    <a href="#" aria-describedby="tier-basic" class="mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 text-ccp-blue ring-1 ring-inset ring-blue-200 hover:ring-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Schedule Demo</a>
+                                    <ul role="list" class="mt-10 space-y-4 text-sm leading-6 text-gray-900">
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Address & Phone </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Map with Directions </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Hours of Operation </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Areas Served</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span>1 Category</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span>1 Image</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="rounded-xl bg-gray-400/5 p-8 ring-1 ring-inset ring-gray-200">
+                                    <h3 id="tier-essential" class="text-sm font-semibold leading-6 text-gray-900">Standard</h3>
+                                    <p class="mt-2 flex items-baseline gap-x-1 text-gray-900">
+                                        <span class="text-4xl font-bold">$29</span>
+                                        <span class="text-sm font-semibold">/month</span>
+                                    </p>
+                                    <a href="#" aria-describedby="tier-essential" class="mt-8 block rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Schedule Demo</a>
+                                    <ul role="list" class="mt-10 space-y-4 text-sm leading-6 text-gray-900">
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Everything in Basic </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> 3 Categories </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> 3 Images </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span>
+                                                      1 Video
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> 1 Attachment </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Link to Website and Socials </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Manage Reviews </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Priority Listing </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="p-8">
+                                    <h3 id="tier-premium" class="text-sm font-semibold leading-6 text-gray-900">Professional</h3>
+                                    <p class="mt-2 flex items-baseline gap-x-1 text-gray-900">
+                                        <span class="text-4xl font-bold">$49</span>
+                                        <span class="text-sm font-semibold">/month</span>
+                                    </p>
+                                    <a href="#" aria-describedby="tier-premium" class="mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 text-ccp-blue ring-1 ring-inset ring-blue-200 hover:ring-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Schedule Demo</a>
+                                    <ul role="list" class="mt-10 space-y-4 text-sm leading-6 text-gray-900">
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Everything in Standard  </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> 5 Categories </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> 20 Images </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span>
+                                                      3 Videos
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> 20 Attachments </span>
+                                                </li>
+                                                <li class="flex gap-x-3">
+                                                    <svg class="h-6 w-5 flex-none text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                        <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                    </svg>
+                                                    <span> Homepage Priority </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <!-- lg+ -->
+                            <div class="isolate mt-20 hidden lg:block">
+                                <div class="relative -mx-8">
+                                    <div class="absolute inset-x-4 inset-y-0 -z-10 flex">
+                                        <div class="flex w-1/4 px-4" style="margin-left: 50%" aria-hidden="true">
+                                            <div class="w-full rounded-xl border-x border-t border-gray-900/10 bg-gray-400/5"></div>
+                                        </div>
+                                    </div>
+                                    <table class="w-full table-fixed border-separate border-spacing-x-8 text-left">
+                                        <caption class="sr-only">
+                                            Pricing plan comparison
+                                        </caption>
+                                        <colgroup>
+                                            <col class="w-1/4">
+                                            <col class="w-1/4">
+                                            <col class="w-1/4">
+                                            <col class="w-1/4">
+                                        </colgroup>
+                                        <thead>
+                                        <tr>
+                                            <td></td>
+                                            <th scope="col" class="px-6 pt-6 xl:px-8 xl:pt-8">
+                                                <div class="text-sm font-semibold leading-7 text-gray-900">Basic</div>
+                                            </th>
+                                            <th scope="col" class="px-6 pt-6 xl:px-8 xl:pt-8">
+                                                <div class="text-sm font-semibold leading-7 text-gray-900">Standard</div>
+                                            </th>
+                                            <th scope="col" class="px-6 pt-6 xl:px-8 xl:pt-8">
+                                                <div class="text-sm font-semibold leading-7 text-gray-900">Professional</div>
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        <tr>
+                                            <th scope="row"><span class="sr-only">Price</span></th>
+                                            <td class="px-6 pt-2 xl:px-8">
+                                                <div class="flex items-baseline gap-x-1 text-gray-900">
+                                                    <span class="text-4xl font-bold">Free</span>
+                                                </div>
+                                                <div class="flex items-baseline gap-x-1 text-gray-900">
+                                                    <span class="text-xl font-bold opacity-0">Free</span>
+                                                </div>
+                                            </td>
+                                            <td class="px-6 pt-2 xl:px-8">
+                                                <div class="flex items-baseline gap-x-1 text-gray-900">
+                                                    <span class="text-4xl font-bold">$15</span>
+                                                    <span class="text-sm font-semibold leading-6">/month</span>
+                                                </div>
+                                                <div class="flex items-baseline gap-x-1 text-gray-900 mt-4">
+                                                    <span class="text-xs font-semibold leading-6">Normally $30/month</span>
+                                                </div>
+                                            </td>
+                                            <td class="px-6 pt-2 xl:px-8">
+                                                <div class="flex items-baseline gap-x-1 text-gray-900">
+                                                    <span class="text-4xl font-bold">$20</span>
+                                                    <span class="text-sm font-semibold leading-6">/month</span>
+                                                </div>
+                                                <div class="flex items-baseline gap-x-1 text-gray-900 mt-4">
+                                                    <span class="text-xs font-semibold leading-6">Normally $40/month</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="colgroup" colspan="4" class="pb-4 pt-8 text-sm font-semibold leading-6 text-gray-900">
+
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/10"></div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Address & Phone
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Standard</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Professional</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Map with Directions
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Standard</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Professional</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Hours of Operation
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Standard</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Professional</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Areas Served
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Categories
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">1</div>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">3</div>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">5</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Images
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">1</div>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">3</div>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">20</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Videos
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">1</div>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">3</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Attachments
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">1</div>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <div class="text-center text-sm leading-6 text-gray-500">20</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Lead Form
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Link to Website
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                "About Us" Description
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Links to Social Media
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Manage Reviews
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Priority Listing
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                                Homepage Priority
+                                                <div class="absolute inset-x-8 mt-4 h-px bg-gray-900/5"></div>
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Basic</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M4 10a.75.75 0 01.75-.75h10.5a.75.75 0 010 1.5H4.75A.75.75 0 014 10z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Not included in Essential</span>
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                                <svg class="mx-auto h-5 w-5 text-ccp-blue" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                                                </svg>
+                                                <span class="sr-only">Included in Premium</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="py-4 text-sm font-normal leading-6 text-gray-900">
+                                            </th>
+                                            <td class="px-6 py-4 xl:px-8">
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+                                            </td>
+                                            <td class="px-6 py-4 xl:px-8">
+
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="join">
+                    <div class="bg-white py-16 sm:py-24">
+                        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                            <div class="relative isolate overflow-hidden bg-ccp-blue  px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
+                                <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Get notified when we’re launching.</h2>
+                                <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">Join the newsletter to stay updated on all things CircleCity.Pro</p>
+                                <form class="mx-auto mt-10 flex max-w-md gap-x-4"  action="https://wellspring.mailcoach.app/subscribe/9f281aad-8c87-483c-97ad-025de235bd13" method="post">
+                                    <label for="email-address" class="sr-only">Email address</label>
+                                    <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email">
+                                    <input type="hidden" name="tags" value="launch" />
+                                    <button type="submit" class="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Notify me</button>
+                                </>
+                                <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2" aria-hidden="true">
+                                    <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+                                    <defs>
+                                        <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 512) rotate(90) scale(512)">
+                                            <stop stop-color="#14294B" />
+                                            <stop offset="1" stop-color="#ED1C25" stop-opacity="0" />
+                                        </radialGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- END BODY WRAPPER -->
+        </main>
+
+    </body>
+</html>
